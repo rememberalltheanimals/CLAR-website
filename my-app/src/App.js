@@ -43,7 +43,7 @@ function App() {
         alert('River makes its way.');
       }}></Header>
       <Nav topics={topics}></Nav>
-      <Article title="Welcome!" body="We create the opportunies by ourselves."></Article>
+      <Article title="Welcome!" body="We create opportunies by ourselves."></Article>
     </div>
   );
 }
