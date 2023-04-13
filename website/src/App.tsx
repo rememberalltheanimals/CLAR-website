@@ -13,7 +13,6 @@ function App() {
       <Route path='/members' element={<Members />} />
     </Routes>
     </BrowserRouter>
-    // <main><nav></nav></main>
   )
 }
 

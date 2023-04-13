@@ -1,6 +1,11 @@
 import React from 'react'
 
 function members() {
+
+  React.useEffect(() => {
+    document.title = "Members | CLAR";  
+  }, []);
+
   return (
     <main>
       <h2>CLAR: Members</h2>
