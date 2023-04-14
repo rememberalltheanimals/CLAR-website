@@ -10,7 +10,7 @@ html, body {
   height: 100%;
 }
 
-nav.navbar  {
+nav.navbar, footer {
   background-color: #80C7FA;
   background: linear-gradient(90deg, #80C7FA 66.15%, #59CDFF 100%);
 }
@@ -26,4 +26,18 @@ nav.navbar * {
 
 .navbar-header img {
   width: 2.5rem;
+}
+
+footer a img {
+  width: 2.5rem;
+}
+
+footer a, footer a:hover {
+  color: black;
+}
+
+.img-background {
+  background-color: white;
+  padding: .4rem;
+  border-radius: .4rem;
 }
