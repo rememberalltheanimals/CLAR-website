@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react"
 
 function Index() {
   
   React.useEffect(() => {
-    document.title = "Home | CLAR";  
+    document.title = "Home | JunCode";  
   }, []);
 
   return (
