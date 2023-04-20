@@ -3,9 +3,11 @@
     color: black;
     vertical-align: middle;
   }
-
+  
   .navbar-brand {
     border-right: 1px solid #333;
+    display: flex !important;
+    align-items: center;
   }
 
   .navbar-header img {
