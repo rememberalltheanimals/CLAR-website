@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function NavBar() {
   return (
-    <nav className="navbar navbar-inverse navbar-expand-lg">
+    <nav id="NavBar" className="navbar navbar-inverse navbar-expand-lg">
       <div className="container-fluid">
 
           <div className="navbar-header">
