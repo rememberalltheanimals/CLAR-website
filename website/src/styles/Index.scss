@@ -1,0 +1,14 @@
+.info-card {
+  background: white;
+  padding: 1rem;
+  max-width: 800px;
+  border-radius: 8px;
+}
+
+#group-info {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  gap: 6rem;
+  margin: 10rem 2rem;
+}

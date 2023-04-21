@@ -8,8 +8,12 @@ function members() {
 
   return (
     <main>
-      <h2>JunCode: Members</h2>
-      <p>Here is a quick list of the current JunCode members and their contact info.</p>
+      <div className="container">
+        <div className="jumbotron">
+          <h2>JunCode: Members</h2>
+          <p className="lead">Here is a quick list of the current JunCode members and their contact info.</p>
+        </div>
+      </div>
         <dl>
           <dt>Eunhae Hwang</dt>
           <dd>Email: <a href="mailto:lavieeunhae@gmail.com">lavieeunhae@gmail.com</a></dd>
