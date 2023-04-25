@@ -1,4 +1,5 @@
 import React from "react"
+import "../styles/Members.scss"
 
 function members() {
 
@@ -7,37 +8,98 @@ function members() {
   }, []);
 
   return (
-    <main>
-      <div className="container">
-        <div className="jumbotron">
-          <h2>JunCode: Members</h2>
-          <p className="lead">Here is a quick list of the current JunCode members and their contact info.</p>
+    <main id="Members">
+      <section>
+    <div className="row">
+      <h1>Our Team</h1>
+    </div>
+    <div className="row">
+      {/* Column 1 */}
+      <div className="column">
+        <div className="card">
+          <div className="img_container">
+            <img src="#" />
+          </div>
+          <h3>Morgan Kruger</h3>
+          <p>Full stack developer</p>
+          <div className="icons">
+            <a href="https://www.linkedin.com/in/morgan-kruger/" target="_blank">
+              <i className="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/MorganKruger" target="_blank">
+              <i className="fab fa-github"></i>
+            </a>
+            <a href="mailto:nagromkruger@gmail.com">
+              <i className="fab fa-envelope"></i>
+            </a>
+          </div>
         </div>
       </div>
-        <dl>
-          <dt>Eunhae Hwang</dt>
-          <dd>Email: <a href="mailto:lavieeunhae@gmail.com">lavieeunhae@gmail.com</a></dd>
-          <dd>LinkedIn: <a href="http://www.linkedin.com/in/eunhae-hwang-4a4282261/" target="_blank">www.linkedin.com/in/eunhae-hwang-4a4282261/</a></dd>
-          <dd>GitHub: <a href="http://github.com/rememberalltheanimals" target="_blank">github.com/rememberalltheanimals</a></dd>
-        </dl>
-        <dl>
-          <dt>Morgan Kruger</dt>
-          <dd>Email: <a href="mailto:nagromkruger@gmail.com">nagromkruger@gmail.com</a></dd>
-          <dd>LinkedIn: <a href="http://www.linkedin.com/in/morgan-kruger/" target="_blank">www.linkedin.com/in/morgan-kruger/</a></dd>
-          <dd>GitHub: <a href="http://github.com/MorganKruger" target="_blank">github.com/MorganKruger</a></dd>
-        </dl>
-        <dl>
-          <dt>Jacoby Yliniemi</dt>
-          <dd>Email: <a href="mailto:cobyyliniemi@gmail.com">cobyyliniemi@gmail.com</a></dd>
-          <dd>LinkedIn: <a href="http://www.linkedin.com/in/jacoby-yliniemi/" target="_blank">www.linkedin.com/in/jacoby-yliniemi/</a></dd>
-          <dd>GitHub: <a href="http://github.com/Jacoby-Y" target="_blank">github.com/Jacoby-Y</a></dd>
-        </dl>
-        <dl>
-          <dt>Joe Shmoe</dt>
-          <dd>Email: No Email</dd>
-          <dd>LinkedIn: <a href="http://www.linkedin.com/" target="_blank">www.linkedin.com</a></dd>
-          <dd>GitHub: <a href="http://github.com/" target="_blank">github.com</a></dd>
-        </dl>
+      {/* Column 2 */}
+      <div className="column">
+        <div className="card">
+          <div className="img_container">
+            <img src="#" />
+          </div>
+          <h3>Jacoby Yliniemi</h3>
+          <p>Full stack developer</p>
+          <div className="icons">
+            <a href="https://www.linkedin.com/in/jacoby-yliniemi/" target="_blank">
+              <i className="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/Jacoby-Y" target="_blank">
+              <i className="fab fa-github"></i>
+            </a>
+            <a href="mailto:cobyyliniemi@gmail.com">
+              <i className="fab fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      {/* Column 3 */}
+      <div className="column">
+        <div className="card">
+          <div className="img_container">
+            <img src="#" />
+          </div>
+          <h3>Davis Klevgard</h3>
+          <p>Full stack developer</p>
+          <div className="icons">
+            <a href="https://linkedin.com/in/djklevgard" target="_blank">
+              <i className="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/davisjklevgard">
+              <i className="fab fa-github"></i>
+            </a>
+            <a href="mailto:davisjklevgard@gmail.com">
+              <i className="fab fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      {/* Column 4 */}
+      <div className="column">
+        <div className="card">
+          <div className="img_container">
+            <img src="../assets/eunhae.png" />
+          </div>
+          <h3>Eunhae Hwang</h3>
+          <p>Full stack developer</p>
+          <div className="icons">
+            <a href="https://www.linkedin.com/in/eunhae-hwang-4a4282261/" target="_blank">
+              <i className="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/rememberalltheanimals" target="_blank">
+              <i className="fab fa-github"></i>
+            </a>
+            <a href="mailto:lavieeunhae@gmail.com">
+              <i className="fab fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
     </main>
   )
 }
