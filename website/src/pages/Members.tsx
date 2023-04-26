@@ -21,7 +21,7 @@ function members() {
             <img src="#" />
           </div>
           <h3>Morgan Kruger</h3>
-          <p>Full stack developer</p>
+          <p>Full stack dev</p>
           <div className="icons">
             <a href="https://www.linkedin.com/in/morgan-kruger/" target="_blank">
               <i className="fab fa-linkedin"></i>
@@ -39,10 +39,10 @@ function members() {
       <div className="column">
         <div className="card">
           <div className="img_container">
-            <img src="#" />
+            <img src="../assets/jacoby.jpeg" />
           </div>
           <h3>Jacoby Yliniemi</h3>
-          <p>Full stack developer</p>
+          <p>Full stack dev</p>
           <div className="icons">
             <a href="https://www.linkedin.com/in/jacoby-yliniemi/" target="_blank">
               <i className="fab fa-linkedin"></i>
@@ -63,7 +63,7 @@ function members() {
             <img src="#" />
           </div>
           <h3>Davis Klevgard</h3>
-          <p>Full stack developer</p>
+          <p>Full stack dev</p>
           <div className="icons">
             <a href="https://linkedin.com/in/djklevgard" target="_blank">
               <i className="fab fa-linkedin"></i>
@@ -84,7 +84,7 @@ function members() {
             <img src="../assets/eunhae.png" />
           </div>
           <h3>Eunhae Hwang</h3>
-          <p>Full stack developer</p>
+          <p>Full stack dev</p>
           <div className="icons">
             <a href="https://www.linkedin.com/in/eunhae-hwang-4a4282261/" target="_blank">
               <i className="fab fa-linkedin"></i>
