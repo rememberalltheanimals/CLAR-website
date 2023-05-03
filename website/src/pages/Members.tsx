@@ -4,7 +4,7 @@ import "../styles/Members.scss"
 function members() {
 
   React.useEffect(() => {
-    document.title = "Members | JunCode";  
+    document.title = "Members | JunCode";
   }, []);
 
   return (
